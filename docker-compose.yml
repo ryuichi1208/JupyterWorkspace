@@ -11,6 +11,7 @@ services:
       NB_UID: 1000
       NB_GID: 100
       GRANT_SUDO: "yes"
+      PYTHONUNBUFFERED: 1
     ports:
       - 8888:8888
     restart: "no"
